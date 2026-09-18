@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Task 1 - Basics of Web Development</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ===================== HTML STRUCTURE (Step 1) ===================== -->
+<header>
+  <h1>Basics of Web Development</h1>
+  <p>Task 1 &mdash; Learning HTML, CSS &amp; JavaScript Fundamentals</p>
+</header>
+
+<nav>
+  <a href="#about">About</a>
+  <a href="#skills">Skills</a>
+  <a href="#links">Links</a>
+  <a href="#interactive">Try It</a>
+</nav>
+
+<main>
+
+  <section id="about">
+    <h2>About This Page</h2>
+    <img class="profile-img"
+         src="https://placehold.co/140x140/1c9788/ffffff?text=Web+Dev"
+         alt="Web development icon">
+    <p>
+      This webpage was built as part of a Web Development internship task
+      (Task 1: Basics of Web Development). It demonstrates a simple,
+      structured page using headings, paragraphs, an image, links, and a
+      small interactive element powered by JavaScript.
+    </p>
+  </section>
+
+  <section id="skills">
+    <h2>What This Page Demonstrates</h2>
+    <ul>
+      <li><strong>HTML:</strong> Headings, paragraphs, an image, and links.</li>
+      <li><strong>CSS:</strong> Colors, fonts, spacing, and layout adjustments.</li>
+      <li><strong>JavaScript:</strong> A button that triggers an alert message.</li>
+    </ul>
+  </section>
+
+  <section id="links">
+    <h2>Useful Links</h2>
+    <ul class="links-list">
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/HTML" target="_blank">HTML Documentation (MDN)</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/CSS" target="_blank">CSS Documentation (MDN)</a></li>
+      <li><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript" target="_blank">JavaScript Documentation (MDN)</a></li>
+    </ul>
+  </section>
+
+  <section id="interactive">
+    <h2>Interactive Demo</h2>
+    <div class="interactive-box">
+      <p>Click the button below to see JavaScript in action:</p>
+      <button id="alertBtn">Click Me!</button>
+      <p id="message"></p>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <p>&copy; 2026 Basics of Web Development &mdash; Task 1</p>
+</footer>
+
+<!-- ===================== JAVASCRIPT (Step 3) ===================== -->
+<script src="script.js"></script>
+
+</body>
+</html>
